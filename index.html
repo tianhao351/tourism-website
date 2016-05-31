@@ -15,8 +15,8 @@
     </head>
     <body>
 
-        <!-- music -->
-        <iframe hidden="hidden" class="music"frameborder="no" border="0" marginwidth="0" marginheight="0" width=298 height=52 src="http://music.163.com/outchain/player?type=2&id=3950116&auto=1&height=32"></iframe>
+<!-- music -->
+        <!-- <iframe hidden="hidden" class="music" frameborder="no" border="0" marginwidth="0" marginheight="0" width=298 height=52 src="http://music.163.com/outchain/player?type=2&id=3950116&auto=1&height=32"></iframe> -->
 
 
         <div id='container'>
@@ -27,12 +27,126 @@
             <span></span>
         </div>
 
-
-        <!-- background image -->
+<!-- background image -->
         <div class="backImage">
             <img src="首页\地图式网站-19.jpg" alt="" />
         </div>
-        <!-- navigation -->
+
+
+
+
+
+
+
+<!-- 餐饮信息 -->
+        <div class="icon res" id="restaurant1" hidden="hidden">
+            <span type="button" data-toggle="modal" data-target="#res-modal1">
+                <img class="red-bub"  src="美食餐饮\网页正式版5.23-44.png" alt="" />
+            </span>
+        </div>
+
+        <!-- the modal -->
+        <div class="modal fade" id="res-modal1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+            <div class="modal-dialog modal-lg" role="document">
+                <img src="美食餐饮\网页正式版5.23-34.png" width="950px" left="300px" alt="" />
+            </div>
+        </div>
+
+        <div class="icon res" id="restaurant2" hidden="hidden">
+            <span type="button" data-toggle="modal" data-target="#res-modal2">
+                <img class="red-bub"  src="美食餐饮\网页正式版5.23-44.png" alt="" />
+            </span>
+        </div>
+
+        <!-- the modal -->
+        <div class="modal fade" id="res-modal2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+            <div class="modal-dialog modal-lg" role="document">
+                <img src="美食餐饮\网页正式版5.23-34.png" width="950px" left="300px" alt="" />
+            </div>
+        </div>
+
+
+
+
+<!--  hotel-->
+        <div class="icon hot" id="hotel1" hidden="hidden">
+            <span type="button" data-toggle="modal" data-target="#hotel-moda1l" >
+                <img class="red-bub" src="酒店宾馆\网页正式版5.23-45.png" alt="" />
+            </span>
+        </div>
+
+        <div class="modal fade" id="hotel-modal1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+            <div class="modal-dialog modal-lg" role="document">
+                <img src="酒店宾馆\网页正式版5.23-35.png" width="950px" left="300px" alt="" />
+            </div>
+        </div>
+
+
+
+
+
+        <div class="icon hot" id="hotel2" hidden="hidden">
+            <span type="button" data-toggle="modal" data-target="#hotel-modal2" >
+                <img class="red-bub" src="酒店宾馆\网页正式版5.23-45.png" alt="" />
+            </span>
+        </div>
+
+        <div class="modal fade" id="hotel-modal2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" >
+            <div class="modal-dialog modal-lg" id="hotel-modal" role="document" >
+                <img src="酒店宾馆\网页正式版5.23-35.png" width="950px"  alt="" />
+            </div>
+
+            <div class="hotel-btn">
+                <a href="text.html">
+                <button type="button" class="btn btn-primary btn-lg">（大按钮）Large button</button>
+                </a>
+
+            </div>
+
+
+            <div class="label">
+                <div class="tab">
+
+                  <!-- Nav tabs -->
+                  <ul class="nav nav-tabs" role="tablist">
+                    <li role="presentation" class="active"><a href="#home" aria-controls="home" role="tab" data-toggle="tab">简介</a></li>
+                    <li role="presentation"><a href="#profile" aria-controls="profile" role="tab" data-toggle="tab">位置</a></li>
+                    <li role="presentation"><a href="#messages" aria-controls="messages" role="tab" data-toggle="tab">设施</a></li>
+                    <li role="presentation"><a href="#settings" aria-controls="settings" role="tab" data-toggle="tab">客房</a></li>
+                    <li role="presentation"><a href="#sss" aria-controls="sss" role="tab" data-toggle="tab"> 特色</a></li>
+                  </ul>
+
+                  <!-- Tab panes -->
+                  <div class="tab-content ">
+
+
+                    <div role="tabpanel" class="tab-pane active tab-word"  id="home">
+                        为发展民俗风情游,王家寨村投资250万元，
+                            <br />开发建设占地4995平方米民俗度假村。
+                    </div>
+                    <div role="tabpanel" class="tab-pane tab-word" id="profile">王家寨民俗度假村位于白洋淀水路的要冲。</div>
+                    <div role="tabpanel" class="tab-pane tab-word" id="messages">
+                        内部配套设施：独立卫浴、空调、卫浴用品、<br />
+                        电话、直饮水、Wifi网络；
+                    </div>
+                    <div role="tabpanel" class="tab-pane tab-word" id="settings">共有豪华单人间30间，套房4套。</div>
+
+                  <div role="tabpanel" class="tab-pane tab-word" id="sss">您在这里可以全方位的体验渔家的生活。
+                  </div>
+                </div>
+
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+
+
+
+<!-- navigation -->
         <div class="navigation">
             <span type="button" id="shouye" class="list">
                 <img src="首页\菜单栏\地图式网站-20.jpg" alt="" />
@@ -67,7 +181,7 @@
             </div>
         </div>
         <div class="modal fade" id="jiaotongxinxi" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-            <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-dialog modal-lg" role="document" >
                 <img src="首页\123\网页正式版5.23-32.png" width="950px" left="300px" alt="" />
             </div>
         </div>
@@ -86,7 +200,7 @@
 
 
 
-        <!-- the small icons which can lungch modal -->
+<!-- the small icons which can lungch modal -->
         <div class="icon" id="icon1">
             <span type="button" data-toggle="modal" data-target="#myModal1">
                 <img src="首页\建筑图标\大观园北门.png" alt="" />
@@ -101,17 +215,17 @@
         </div>
 
         <div class="icon" id="icon2">
-            <span type="button">
+            <span type="button" data-toggle="modal" data-target="#myModal3">
                 <img src="首页\建筑图标\大观园观音像.png" alt="" />
             </span>
         </div>
 
         <!-- the modal -->
-        <!-- <div class="modal fade" id="myModal2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+        <div class="modal fade" id="myModal3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
             <div class="modal-dialog modal-lg" role="document">
-                <img src="首页\123\网页正式版5.23-21.png" width="950px" left="300px" alt="" />
+                <img src="首页\123\网页正式版5.23-16.png" width="950px" left="300px" alt="" />
             </div>
-        </div> -->
+        </div>
 
         <!-- the small icons which can lungch modal -->
         <div class="icon" id="icon3">
@@ -162,11 +276,11 @@
         </div>
 
         <!-- the modal -->
-        <!-- <div class="modal fade" id="myModal6" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+        <div class="modal fade" id="myModal6" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
             <div class="modal-dialog modal-lg" role="document">
-                <img src="首页\123\网页正式版5.23-18.png" width="950px" left="300px" alt="" />
+                <img src="首页\123\网页正式版5.23-57.png" width="950px" left="300px" alt="" />
             </div>
-        </div> -->
+        </div>
         <div class="icon" id="icon7">
             <span type="button" data-toggle="modal" data-target="#myModal7">
                 <img src="首页\建筑图标\王家寨民俗村.png" alt="" />
@@ -285,5 +399,6 @@
                 <img src="首页\123\网页正式版5.23-29.png" width="950px" left="300px" alt="" />
             </div>
         </div>
+
     </body>
 </html>
