@@ -28,5 +28,12 @@ $('#binguan').click(function(){
     $(".hot").toggle();
 });
 
+$('#sob1').click(function(){
+     document.body.style.zoom=1;
+});
+$('#sob2').click(function(){
+     document.body.style.zoom=0.75;
+});
+
 
 }

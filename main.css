@@ -206,6 +206,7 @@
 #icon14 img{
     position: absolute;;
     left: 253px;
+    top: 430px;
     width: 160px
 }
 
@@ -234,7 +235,7 @@
     transition: all 0.5s;
     width: 380px;
     height: 400px;
-    /*transform: translate(-228px);*/
+    transform: translate(-228px);
 }
 .navigation span{
     height: 50px;
@@ -307,4 +308,119 @@
 
 #hotel-bg-img img{
     width: 1685px;
+}
+.text-btn1{
+    position: absolute;
+    left: 1340px;
+    top:1052px;
+    opacity: 0;
+}
+.text-btn2{
+    position: absolute;
+    left: 1340px;
+    top:1123px;
+    opacity: 0;
+}
+
+.text-modal-btn{
+    top: 600px;
+    left: 1150px;
+    position: absolute;
+    opacity: 0;
+}
+
+.return-home{
+    top: 500px;
+    left: 800px;
+    position: absolute;
+    opacity: 0;
+}
+
+.piaowu-btn{
+    top: 790px;
+    left: 910px;
+    position: absolute;
+    opacity: 0;
+}
+
+.pw-btn{
+    top: 1305px;
+    left: 850px;
+    position: absolute;
+    opacity: 0;
+}
+.js-btn1{
+    top: 400px;
+    left: 800px;
+    position: absolute;
+    opacity: 0;
+}
+
+.js-btn2{
+    top: 350px;
+    left: 900px;
+    position: absolute;
+    opacity: 0;
+}
+#hedeng-bg-img img{
+
+height: 876px;
+
+}
+
+.hd-btn button{
+    top: 700px;
+    left: 750px;
+    height: 100px;
+    position: absolute;
+    opacity: 0;
+
+}
+
+.zf-btn button{
+    top: 700px;
+    left: 1310px;
+    position: absolute;
+    opacity: 0;
+
+}
+.cj-btn{
+    top: 800px;
+    left: 750px;
+    position: absolute;
+    opacity: 0;
+
+}
+
+
+.car-tab{
+    background-color: #ffffff;
+
+}
+.car-tab ul li{
+    padding:0 50px;
+}
+
+
+.txe{
+    transform:translateY(-50px)  scale(0.9) ;
+}
+
+
+#youkexuzhi{
+    transform: translate(100px);
+}
+
+#sob1{
+    position: absolute;
+    top: 650px;
+    left: 50px;
+    cursor: pointer;
+}
+
+#sob2{
+    position: absolute;
+    top: 650px;
+    left:130px;
+    cursor: pointer;
 }
